@@ -1,3 +1,61 @@
+/* global settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.gradient-button {
+    background-image: -webkit-linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+    background-image: -moz-linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+    background-image: linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+}
+
+.gradient-circle {
+    background-image: -webkit-linear-gradient(to right bottom, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+    background-image: -moz-linear-gradient(to right bottom, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+    background-image: linear-gradient(to right bottom, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+    color: var(--grayish-blue);
+}
+
+
+/* atribution */
+
 .attribution {
     font-size: 11px;
     text-align: center;
