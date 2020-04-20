@@ -21,6 +21,7 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     color: var(--dark-blue);
+    overflow-x: hidden;
 }
 
 p {
@@ -130,8 +131,9 @@ button:hover {
 }
 
 .second-section h1,
-.second-section h3,
-.third-section h1 {
+.second-section h2,
+.third-section h1,
+.third-section h3 {
     font-weight: 400;
 }
 
@@ -174,10 +176,24 @@ button:hover {
     grid-column-gap: 3rem;
 }
 
+.card {
+    background-color: var(--white);
+    border-radius: 0 0 5px 5px;
+}
+
+.info-wrapper {
+    padding: 20px;
+}
+
+.info-wrapper p {
+    color: var(--grayish-blue);
+}
+
 .articles img {
     width: 20vw;
     height: 210px;
     object-fit: fill;
+    border-radius: 5px 5px 0 0;
 }
 
 
