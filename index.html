@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-    <link rel="stylesheet" href="/assets/style/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/style/style.css" type="text/css">
     <title>Frontend Mentor | Easybank landing page</title>
 </head>
 
@@ -16,7 +16,7 @@
             <div class="nav-logo">
                 <img src="./assets/images/logo.svg" alt="logo">
             </div>
-            <div class="nav-links">
+            <div id="nav-links" class="nav-links">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -28,11 +28,12 @@
             <div class="nav-call-to-action">
                 <button class="gradient-button">Request Invite</button>
             </div>
+            <div id="hamburger" class="hamburger" onclick="change()"></div>
         </div>
     </nav>
 
     <!-- first section -->
-    <div class="first-section">
+    <div id="first-section" class="first-section">
         <div class="container">
             <div class="first-section-left">
                 <h1>Next generation<br>digital banking</h1>
@@ -169,6 +170,17 @@
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="# ">Mariusz Pawlowicz</a>.
         </div>
     </footer>
+
+    <script>
+        function change() {
+            var hamburger = document.getElementById("hamburger");
+            var navLinks = document.getElementById("nav-links");
+            var firstSection = document.getElementById("first-section");
+            firstSection.classList.toggle("dark");
+            hamburger.classList.toggle("close");
+            navLinks.classList.toggle("show");
+        }
+    </script>
 
 </body>
 
