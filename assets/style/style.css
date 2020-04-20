@@ -44,7 +44,7 @@ nav {
 }
 
 .nav-container {
-    width: 92%;
+    width: 86%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,10 +72,11 @@ nav ul li:hover {
 
 button {
     color: var(--very-light-gray);
-    border-radius: 20px;
-    padding: 13px 25px;
+    border-radius: 30px;
+    padding: 13px 35px;
     border: none;
     outline: none;
+    font-size: 18px;
 }
 
 button:hover {
@@ -92,7 +93,7 @@ button:hover {
 }
 
 .container {
-    width: 92%;
+    width: 86%;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -148,7 +149,7 @@ button:hover {
 .second-section-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 3rem;
+    grid-column-gap: 3vw;
 }
 
 .top-header,
@@ -173,7 +174,7 @@ button:hover {
 .articles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 3rem;
+    grid-column-gap: 3vw;
 }
 
 .card {
@@ -190,7 +191,7 @@ button:hover {
 }
 
 .articles img {
-    width: 20vw;
+    width: 100%;
     height: 210px;
     object-fit: fill;
     border-radius: 5px 5px 0 0;
@@ -207,13 +208,41 @@ footer {
 .footer {
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
+    line-height: 2rem;
 }
 
 .footer .container {
     justify-content: space-between;
+    align-items: baseline;
 }
+
 footer ul {
     list-style: none;
+}
+
+.footer-left,
+.footer-middle {
+    flex: 1;
+}
+
+.social-icons img {
+    width: 1.4rem;
+    margin: 2.1rem 5px 0 0;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right {
+    flex: 2;
+    text-align: right;
+}
+
+.footer-right p {
+    color: var(--grayish-blue);
 }
 
 
@@ -222,6 +251,7 @@ footer ul {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--grayish-blue);
 }
 
 .attribution a {
