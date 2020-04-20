@@ -197,6 +197,26 @@ button:hover {
 }
 
 
+/* footer */
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--light-grayish-blue);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container {
+    justify-content: space-between;
+}
+footer ul {
+    list-style: none;
+}
+
+
 /* atribution */
 
 .attribution {
