@@ -109,7 +109,7 @@
         background-color: var(--very-light-gray);
         display: flex;
         justify-content: center;
-        background-image: url("/assets/images/bg-intro-desktop.svg");
+        background-image: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-size: 65% 116%;
         background-position: 141% 196%;
@@ -199,7 +199,7 @@
     .top-header p {
         font-size: 20px;
         font-weight: 300;
-        padding-top: .2rem 0 1rem 0;
+        padding: .2rem 0 1rem 0;
     }
     /* third-section */
     
@@ -345,7 +345,7 @@
         }
         .first-section h1 {
             padding-top: 7rem;
-            font: 2.5rem;
+            font-size: 2.5rem;
         }
         button {
             padding: .5rem 3rem;
