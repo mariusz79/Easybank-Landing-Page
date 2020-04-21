@@ -1,6 +1,6 @@
 ## EasyBank Landing Page
 
-> This responsive landing page was build from design provided by [frontmentor.io](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
+> This responsive landing page was build from design provided by [frontmentor.io](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
 > Both mobile and desktop version were provided. The designs were in JPG static format. This means 
 that I had to use my best judgment for styles such as `font-size`, `padding` and `margin`.
@@ -12,11 +12,11 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 # Design images
-- [Active states](https://github.com/mariusz79/Huddle-Landing-Page/blob/master/assets/design/active-states.jpg)
-- [Desktop design](https://github.com/mariusz79/Huddle-Landing-Page/blob/master/assets/design/desktop-design.jpg)
-- [Desktop preview](https://github.com/mariusz79/Huddle-Landing-Page/blob/master/assets/design/desktop-preview.jpg)
-- [Mobile design](https://github.com/mariusz79/Huddle-Landing-Page/blob/master/assets/design/mobile-design.jpg)
-- [Mobile navigation](https://github.com/mariusz79/Huddle-Landing-Page/blob/master/assets/design/mobile-navigation.jpg)
+- [Active states](https://github.com/mariusz79/Easybank-Landing-Page/blob/master/assets/design/active-states.jpg)
+- [Desktop design](https://github.com/mariusz79/Easybank-Landing-Page/blob/master/assets/design/desktop-design.jpg)
+- [Desktop preview](https://github.com/mariusz79/Easybank-Landing-Page/blob/master/assets/design/desktop-preview.jpg)
+- [Mobile design](https://github.com/mariusz79/Easybank-Landing-Page/blob/master/assets/design/mobile-design.jpg)
+- [Mobile navigation](https://github.com/mariusz79/Easybank-Landing-Page/blob/master/assets/design/mobile-navigation.jpg)
 
 # Front-end Style Guide
 
